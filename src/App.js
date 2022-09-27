@@ -33,7 +33,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Navbar />
+        <Navbar carro={this.state.carro} />
         <Layout>
           <Title />
           <Productos
