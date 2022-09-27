@@ -20,8 +20,8 @@ export default class Producto extends Component {
     return (
       <div style={styles.producto}>
         <img style={styles.img} src={producto.img} alt={producto.name} />
-        <h3>producto.name</h3>
-        <p>producto.price</p>
+        <h3>{producto.name}</h3>
+        <p>{producto.price}</p>
         <Button onClick={() => agregarAlCarro(producto)}>
             Agregar al carro
         </Button>
